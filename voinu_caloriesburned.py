@@ -26,7 +26,9 @@ while answer == 'y':
             nums.append(int(t))
         
         for num in nums:
+            # multiply the values in the list by 3.9 and round them
             cal_burn =round(num * 3.9, 2) 
+            # dislay the result
             print("Calories burned in", num, "minutes:",cal_burn)
             
     except ValueError:
